@@ -1,0 +1,51 @@
+# Target labels
+ Extra
+ opencv_alphamat
+ Module
+# Source files and their labels
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/include/opencv2/alphamat.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/cm.cpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/infoflow.cpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/intraU.cpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/local_info.cpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/3rdparty/KDTreeVectorOfVectorsAdaptor.h
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/3rdparty/nanoflann.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/cm.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/intraU.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/local_info.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/src/precomp.hpp
+ Extra
+ opencv_alphamat
+ Module
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/cvconfig.h
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/opencv2/opencv_modules.hpp

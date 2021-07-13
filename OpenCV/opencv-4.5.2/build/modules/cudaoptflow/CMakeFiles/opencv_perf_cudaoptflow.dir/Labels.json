@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/perf/perf_optflow.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudaoptflow",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_cudaoptflow"
+	}
+}

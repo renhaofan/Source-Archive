@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/test/test_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/test/test_optflow.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"AccuracyTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/test/test_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudaoptflow",
+				"AccuracyTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudaoptflow",
+			"AccuracyTest"
+		],
+		"name" : "opencv_test_cudaoptflow"
+	}
+}

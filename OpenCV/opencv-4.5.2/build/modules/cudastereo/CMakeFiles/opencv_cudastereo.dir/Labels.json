@@ -1,0 +1,192 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/include/opencv2/cudastereo.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/disparity_bilateral_filter.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/stereobm.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/stereobp.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/stereocsbp.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/stereosgm.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/util.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/disparity_bilateral_filter.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereocsbp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereosgm.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/disparity_bilateral_filter.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereobm.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereobp.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereocsbp.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/stereosgm.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/src/cuda/util.cu",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudastereo",
+				"Module"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/cvconfig.h"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_disparity_bilateral_filter.cu.o"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobm.cu.o"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereobp.cu.o"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereocsbp.cu.o"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_stereosgm.cu.o"
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/modules/cudastereo/CMakeFiles/cuda_compile_1.dir/src/cuda/cuda_compile_1_generated_util.cu.o"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudastereo",
+			"Module"
+		],
+		"name" : "opencv_cudastereo"
+	}
+}

@@ -1,0 +1,25 @@
+# Target labels
+ Extra
+ opencv_cudalegacy
+ PerfTest
+# Source files and their labels
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/perf/perf_bgsegm.cpp
+ Extra
+ opencv_cudalegacy
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/perf/perf_calib3d.cpp
+ Extra
+ opencv_cudalegacy
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/perf/perf_labeling.cpp
+ Extra
+ opencv_cudalegacy
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/perf/perf_main.cpp
+ Extra
+ opencv_cudalegacy
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/perf/perf_precomp.hpp
+ Extra
+ opencv_cudalegacy
+ PerfTest

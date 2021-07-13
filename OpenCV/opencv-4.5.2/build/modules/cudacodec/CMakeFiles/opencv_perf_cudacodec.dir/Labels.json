@@ -1,0 +1,42 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/perf/perf_main.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/perf/perf_video.cpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"PerfTest"
+			]
+		},
+		{
+			"file" : "/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/perf/perf_precomp.hpp",
+			"labels" : 
+			[
+				"Extra",
+				"opencv_cudacodec",
+				"PerfTest"
+			]
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Extra",
+			"opencv_cudacodec",
+			"PerfTest"
+		],
+		"name" : "opencv_perf_cudacodec"
+	}
+}

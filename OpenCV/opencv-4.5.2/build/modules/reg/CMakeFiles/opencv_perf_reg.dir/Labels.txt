@@ -1,0 +1,17 @@
+# Target labels
+ Extra
+ opencv_reg
+ PerfTest
+# Source files and their labels
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/perf/perf_main.cpp
+ Extra
+ opencv_reg
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/perf/perf_reg.cpp
+ Extra
+ opencv_reg
+ PerfTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/perf/perf_precomp.hpp
+ Extra
+ opencv_reg
+ PerfTest

@@ -1,0 +1,29 @@
+# Target labels
+ Extra
+ opencv_aruco
+ AccuracyTest
+# Source files and their labels
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_arucodetection.cpp
+ Extra
+ opencv_aruco
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_boarddetection.cpp
+ Extra
+ opencv_aruco
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_charucodetection.cpp
+ Extra
+ opencv_aruco
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_main.cpp
+ Extra
+ opencv_aruco
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_misc.cpp
+ Extra
+ opencv_aruco
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/test/test_precomp.hpp
+ Extra
+ opencv_aruco
+ AccuracyTest

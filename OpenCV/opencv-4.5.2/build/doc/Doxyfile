@@ -1,0 +1,765 @@
+DOXYFILE_ENCODING      = UTF-8
+PROJECT_NAME           = OpenCV
+PROJECT_NUMBER         = 4.5.2
+PROJECT_BRIEF          = "Open Source Computer Vision"
+PROJECT_LOGO           = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/opencv-logo-small.png
+OUTPUT_DIRECTORY       = doxygen
+CREATE_SUBDIRS         = YES
+OUTPUT_LANGUAGE        = English
+BRIEF_MEMBER_DESC      = YES
+REPEAT_BRIEF           = YES
+ABBREVIATE_BRIEF       = "The $name class" \
+                         "The $name widget" \
+                         "The $name file" \
+                         is \
+                         provides \
+                         specifies \
+                         contains \
+                         represents \
+                         a \
+                         an \
+                         the
+ALWAYS_DETAILED_SEC    = NO
+INLINE_INHERITED_MEMB  = NO
+FULL_PATH_NAMES        = YES
+STRIP_FROM_PATH        = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgcodecs/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/dnn/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/flann/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/photo/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaarithm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudabgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafilters/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaimgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudawarping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudev/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/datasets/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/freetype/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ovis/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/shape/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/videostab/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/wechat_qrcode/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/include
+STRIP_FROM_INC_PATH    = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgcodecs/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/dnn/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/flann/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/photo/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaarithm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudabgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafilters/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaimgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudawarping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudev/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/datasets/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/freetype/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ovis/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/shape/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/videostab/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/wechat_qrcode/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/include
+SHORT_NAMES            = NO
+JAVADOC_AUTOBRIEF      = NO
+QT_AUTOBRIEF           = NO
+MULTILINE_CPP_IS_BRIEF = NO
+INHERIT_DOCS           = YES
+SEPARATE_MEMBER_PAGES  = NO
+TAB_SIZE               = 4
+ALIASES               += add_toggle{1}="@htmlonly[block] <div class='newInnerHTML'>\1</div><div> <script type="text/javascript"> addToggle(); </script>@endhtmlonly"
+ALIASES               += add_toggle_cpp="@htmlonly[block] <div class='newInnerHTML' title='cpp' style='display: none;'>C++</div><div class='toggleable_div label_cpp' style='display: none;'>@endhtmlonly"
+ALIASES               += add_toggle_java="@htmlonly[block] <div class='newInnerHTML' title='java' style='display: none;'>Java</div><div class='toggleable_div label_java' style='display: none;'>@endhtmlonly"
+ALIASES               += add_toggle_python="@htmlonly[block] <div class='newInnerHTML' title='python' style='display: none;'>Python</div><div class='toggleable_div label_python' style='display: none;'>@endhtmlonly"
+ALIASES               += end_toggle="@htmlonly[block] </div> @endhtmlonly"
+ALIASES               += prev_tutorial{1}="**Prev  Tutorial:** \ref \1 \n"
+ALIASES               += next_tutorial{1}="**Next  Tutorial:** \ref \1 \n"
+ALIASES               += youtube{1}="@htmlonly[block]<div align='center'><iframe title='Video' width='560' height='349' src='https://www.youtube.com/embed/\1?rel=0' frameborder='0' align='middle' allowfullscreen></iframe></div>@endhtmlonly"
+OPTIMIZE_OUTPUT_FOR_C  = NO
+OPTIMIZE_OUTPUT_JAVA   = NO
+OPTIMIZE_FOR_FORTRAN   = NO
+OPTIMIZE_OUTPUT_VHDL   = NO
+EXTENSION_MAPPING      =
+MARKDOWN_SUPPORT       = YES
+AUTOLINK_SUPPORT       = YES
+BUILTIN_STL_SUPPORT    = YES
+CPP_CLI_SUPPORT        = NO
+SIP_SUPPORT            = NO
+IDL_PROPERTY_SUPPORT   = YES
+DISTRIBUTE_GROUP_DOC   = NO
+SUBGROUPING            = YES
+INLINE_GROUPED_CLASSES = NO
+INLINE_SIMPLE_STRUCTS  = NO
+TYPEDEF_HIDES_STRUCT   = YES
+LOOKUP_CACHE_SIZE      = 0
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_PACKAGE        = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = NO
+EXTRACT_LOCAL_METHODS  = NO
+EXTRACT_ANON_NSPACES   = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = NO
+HIDE_IN_BODY_DOCS      = NO
+INTERNAL_DOCS          = NO
+CASE_SENSE_NAMES       = YES
+HIDE_SCOPE_NAMES       = NO
+SHOW_INCLUDE_FILES     = YES
+SHOW_GROUPED_MEMB_INC  = YES
+FORCE_LOCAL_INCLUDES   = NO
+INLINE_INFO            = YES
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = YES
+SORT_MEMBERS_CTORS_1ST = YES
+SORT_GROUP_NAMES       = NO
+SORT_BY_SCOPE_NAME     = NO
+STRICT_PROTO_MATCHING  = NO
+GENERATE_TODOLIST      = YES
+GENERATE_TESTLIST      = YES
+GENERATE_BUGLIST       = YES
+GENERATE_DEPRECATEDLIST= YES
+ENABLED_SECTIONS       = CUDA_MODULES HAVE_opencv_core HAVE_opencv_imgproc HAVE_opencv_imgcodecs HAVE_opencv_videoio HAVE_opencv_highgui HAVE_opencv_video HAVE_opencv_calib3d HAVE_opencv_features2d HAVE_opencv_objdetect HAVE_opencv_dnn HAVE_opencv_ml HAVE_opencv_flann HAVE_opencv_photo HAVE_opencv_stitching HAVE_opencv_gapi HAVE_opencv_alphamat HAVE_opencv_aruco HAVE_opencv_bgsegm HAVE_opencv_bioinspired HAVE_opencv_ccalib HAVE_opencv_cnn_3dobj HAVE_opencv_cudaarithm HAVE_opencv_cudabgsegm HAVE_opencv_cudacodec HAVE_opencv_cudafeatures2d HAVE_opencv_cudafilters HAVE_opencv_cudaimgproc HAVE_opencv_cudalegacy HAVE_opencv_cudaobjdetect HAVE_opencv_cudaoptflow HAVE_opencv_cudastereo HAVE_opencv_cudawarping HAVE_opencv_cudev HAVE_opencv_cvv HAVE_opencv_datasets HAVE_opencv_dnn_objdetect HAVE_opencv_dnn_superres HAVE_opencv_dpm HAVE_opencv_face HAVE_opencv_freetype HAVE_opencv_fuzzy HAVE_opencv_hdf HAVE_opencv_hfs HAVE_opencv_img_hash HAVE_opencv_intensity_transform HAVE_opencv_julia HAVE_opencv_line_descriptor HAVE_opencv_mcc HAVE_opencv_optflow HAVE_opencv_ovis HAVE_opencv_phase_unwrapping HAVE_opencv_plot HAVE_opencv_quality HAVE_opencv_rapid HAVE_opencv_reg HAVE_opencv_rgbd HAVE_opencv_saliency HAVE_opencv_sfm HAVE_opencv_shape HAVE_opencv_stereo HAVE_opencv_structured_light HAVE_opencv_superres HAVE_opencv_surface_matching HAVE_opencv_text HAVE_opencv_tracking HAVE_opencv_videostab HAVE_opencv_viz HAVE_opencv_wechat_qrcode HAVE_opencv_xfeatures2d HAVE_opencv_ximgproc HAVE_opencv_xobjdetect HAVE_opencv_xphoto
+MAX_INITIALIZER_LINES  = 30
+SHOW_USED_FILES        = YES
+SHOW_FILES             = YES
+SHOW_NAMESPACES        = YES
+FILE_VERSION_FILTER    =
+LAYOUT_FILE            = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/doc/DoxygenLayout.xml
+CITE_BIB_FILES         = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/opencv.bib  /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/doc/video.bib /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/doc/calib3d.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/doc/alphamat.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/doc/aruco.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/doc/bgsegm.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/doc/bioinspired.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/doc/cnn_3dobj.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/doc/cudastereo.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/doc/dnn_objdetect.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/doc/dpm.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/doc/face.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/doc/fuzzy.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/doc/hfs.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/doc/img_hash.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/doc/intensity_transform.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/doc/line_descriptor.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/doc/optflow.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/doc/phase_unwrapping.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/doc/quality.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/doc/rapid.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/doc/reg.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/doc/rgbd.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/doc/saliency.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/doc/stereo.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/doc/structured_light.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/doc/surface_matching.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/doc/text.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/doc/tracking.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/doc/xfeatures2d.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/doc/ximgproc.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/doc/xobjdetect.bib /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/doc/xphoto.bib
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = YES
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO
+WARN_FORMAT            = "$file:$line: $text"
+WARN_LOGFILE           =
+INPUT                  = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/doc/root.markdown  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/faq.markdown  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgcodecs/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/dnn/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/flann/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/photo/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/include \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaarithm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudabgsegm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudacodec/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudafilters/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaimgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudalegacy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudawarping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudev/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/datasets/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/freetype/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ovis/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/shape/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/superres/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/videostab/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/wechat_qrcode/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/include \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/include  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/src/hal_replacement.hpp \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/src/hal_replacement.hpp \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/src/hal_replacement.hpp  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/doc  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/tutorials  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/py_tutorials  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/js_tutorials  \
+ /home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/tutorials  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/build/doc/contrib_tutorials.markdown
+INPUT_ENCODING         = UTF-8
+FILE_PATTERNS          =
+RECURSIVE              = YES
+EXCLUDE                = 
+EXCLUDE_SYMLINKS       = NO
+EXCLUDE_PATTERNS       = *.inl.hpp *.impl.hpp *_detail.hpp */cudev/**/detail/*.hpp *.m */opencl/runtime/* */legacy/* *_c.h 
+EXCLUDE_SYMBOLS        = cv::DataType<*> cv::traits::* int void CV__* T __CV*
+EXAMPLE_PATH           = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/samples  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/doc  \
+ /home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudaoptflow/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/datasets/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ovis/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/shape/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/videostab/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/wechat_qrcode/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/samples \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/samples
+EXAMPLE_PATTERNS       = *
+EXAMPLE_RECURSIVE      = YES
+IMAGE_PATH             = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/images \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/core/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/imgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/videoio/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/highgui/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/video/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/calib3d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/features2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/ml/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/stitching/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules/gapi/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dpm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hfs/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/img_hash/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/intensity_transform/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/optflow/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/plot/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/quality/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rapid/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/reg/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/rgbd/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/saliency/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/surface_matching/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xfeatures2d/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xobjdetect/doc \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/doc \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/py_tutorials \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/js_tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/alphamat/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/aruco/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bgsegm/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/bioinspired/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ccalib/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cnn_3dobj/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cvv/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_objdetect/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/dnn_superres/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/face/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/fuzzy/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/hdf/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/julia/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/line_descriptor/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/mcc/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/phase_unwrapping/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/sfm/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/stereo/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/structured_light/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/text/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/tracking/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/viz/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/ximgproc/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/xphoto/tutorials \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2 \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/modules \
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules
+INPUT_FILTER           =
+FILTER_PATTERNS        =
+FILTER_SOURCE_FILES    = NO
+FILTER_SOURCE_PATTERNS =
+USE_MDFILE_AS_MAINPAGE =
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = YES
+REFERENCED_BY_RELATION = NO
+REFERENCES_RELATION    = NO
+REFERENCES_LINK_SOURCE = YES
+SOURCE_TOOLTIPS        = YES
+USE_HTAGS              = NO
+VERBATIM_HEADERS       = NO
+ALPHABETICAL_INDEX     = YES
+COLS_IN_ALPHA_INDEX    = 5
+IGNORE_PREFIX          =
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+HTML_FILE_EXTENSION    = .html
+HTML_HEADER            = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/header.html
+HTML_FOOTER            = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/footer.html
+HTML_STYLESHEET        =
+HTML_EXTRA_STYLESHEET  = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/stylesheet.css
+HTML_EXTRA_FILES       = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/opencv.ico \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/pattern.png \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/acircles_pattern.png \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/bodybg.png \
+/home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/tutorial-utils.js
+HTML_COLORSTYLE_HUE    = 220
+HTML_COLORSTYLE_SAT    = 100
+HTML_COLORSTYLE_GAMMA  = 80
+HTML_TIMESTAMP         = YES
+HTML_DYNAMIC_SECTIONS  = NO
+HTML_INDEX_NUM_ENTRIES = 100
+GENERATE_DOCSET        = NO
+DOCSET_FEEDNAME        = "Doxygen generated docs"
+DOCSET_BUNDLE_ID       = org.doxygen.Project
+DOCSET_PUBLISHER_ID    = org.doxygen.Publisher
+DOCSET_PUBLISHER_NAME  = Publisher
+GENERATE_HTMLHELP      = NO
+CHM_FILE               =
+HHC_LOCATION           =
+GENERATE_CHI           = NO
+CHM_INDEX_ENCODING     =
+BINARY_TOC             = NO
+TOC_EXPAND             = NO
+GENERATE_QHP           = NO
+QCH_FILE               = ../opencv-4.5.2.qch
+QHP_NAMESPACE          = org.opencv.4.5.2
+QHP_VIRTUAL_FOLDER     = opencv
+QHP_CUST_FILTER_NAME   =
+QHP_CUST_FILTER_ATTRS  =
+QHP_SECT_FILTER_ATTRS  =
+QHG_LOCATION           =
+GENERATE_ECLIPSEHELP   = NO
+ECLIPSE_DOC_ID         = org.doxygen.Project
+DISABLE_INDEX          = NO
+GENERATE_TREEVIEW      = NO
+ENUM_VALUES_PER_LINE   = 1
+TREEVIEW_WIDTH         = 250
+EXT_LINKS_IN_WINDOW    = YES
+FORMULA_FONTSIZE       = 14
+FORMULA_TRANSPARENT    = YES
+USE_MATHJAX            = YES
+MATHJAX_FORMAT         = HTML-CSS
+MATHJAX_RELPATH        = https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0
+MATHJAX_EXTENSIONS     = TeX/AMSmath TeX/AMSsymbols
+MATHJAX_CODEFILE       = /home/steve/Downloads/build/OpenCV/opencv-4.5.2/doc/mymath.js
+SEARCHENGINE           = YES
+SERVER_BASED_SEARCH    = NO
+EXTERNAL_SEARCH        = NO
+SEARCHENGINE_URL       =
+SEARCHDATA_FILE        = searchdata.xml
+EXTERNAL_SEARCH_ID     =
+EXTRA_SEARCH_MAPPINGS  =
+GENERATE_LATEX         = NO
+LATEX_OUTPUT           = latex
+LATEX_CMD_NAME         = latex
+MAKEINDEX_CMD_NAME     = makeindex
+COMPACT_LATEX          = NO
+PAPER_TYPE             = a4
+EXTRA_PACKAGES         = mymath
+LATEX_HEADER           =
+LATEX_FOOTER           =
+LATEX_EXTRA_FILES      =
+PDF_HYPERLINKS         = YES
+USE_PDFLATEX           = YES
+LATEX_BATCHMODE        = NO
+LATEX_HIDE_INDICES     = NO
+LATEX_SOURCE_CODE      = NO
+LATEX_BIB_STYLE        = plain
+GENERATE_RTF           = NO
+RTF_OUTPUT             = rtf
+COMPACT_RTF            = NO
+RTF_HYPERLINKS         = NO
+RTF_STYLESHEET_FILE    =
+RTF_EXTENSIONS_FILE    =
+GENERATE_MAN           = NO
+MAN_OUTPUT             = man
+MAN_EXTENSION          = .3
+MAN_LINKS              = NO
+GENERATE_XML           = NO
+XML_OUTPUT             = xml
+XML_PROGRAMLISTING     = YES
+GENERATE_DOCBOOK       = NO
+DOCBOOK_OUTPUT         = docbook
+GENERATE_AUTOGEN_DEF   = NO
+GENERATE_PERLMOD       = NO
+PERLMOD_LATEX          = NO
+PERLMOD_PRETTY         = YES
+PERLMOD_MAKEVAR_PREFIX =
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = YES
+EXPAND_ONLY_PREDEF     = NO
+SEARCH_INCLUDES        = YES
+INCLUDE_PATH           =
+INCLUDE_FILE_PATTERNS  =
+PREDEFINED             = __cplusplus=1 \
+                         CVAPI(x)=x \
+                         CV_API_CALL= \
+                         CV_DOXYGEN= \
+                         CV_EXPORTS= \
+                         CV_EXPORTS_W= \
+                         CV_EXPORTS_W_SIMPLE= \
+                         CV_EXPORTS_AS(x)= \
+                         CV_EXPORTS_W_MAP= \
+                         GAPI_EXPORTS= \
+                         GAPI_EXPORTS_W= \
+                         CV_IN_OUT= \
+                         CV_OUT= \
+                         CV_PROP= \
+                         CV_PROP_RW= \
+                         CV_WRAP= \
+                         CV_WRAP_AS(x)= \
+                         CV_WRAP_MAPPABLE(x)= \
+                         CV_WRAP_PHANTOM(x)= \
+                         CV_WRAP_DEFAULT(x)= \
+                         CV_CDECL= \
+                         CV_Func= \
+                         CV_DO_PRAGMA(x)= \
+                         CV_SUPPRESS_DEPRECATED_START= \
+                         CV_SUPPRESS_DEPRECATED_END= \
+                         CV_INLINE= \
+                         CV_NORETURN= \
+                         CV_DEFAULT(x)=" = x" \
+                         CV_NEON=1 \
+                         CV_SSE2=1 \
+                         CV_SIMD128=1 \
+                         CV_SIMD256=1 \
+                         CV_SIMD512=1 \
+                         CV_SIMD128_64F=1 \
+                         CV_SIMD256_64F=1 \
+                         CV_SIMD512_64F=1 \
+                         CV__DEBUG_NS_BEGIN= \
+                         CV__DEBUG_NS_END= \
+                         CV_DEPRECATED_EXTERNAL= \
+                         CV_DEPRECATED=
+EXPAND_AS_DEFINED      =
+SKIP_FUNCTION_MACROS   = YES
+TAGFILES               =
+GENERATE_TAGFILE       = doxygen/html/opencv.tag
+ALLEXTERNALS           = NO
+EXTERNAL_GROUPS        = YES
+EXTERNAL_PAGES         = YES
+CLASS_DIAGRAMS         = YES
+DIA_PATH               =
+HIDE_UNDOC_RELATIONS   = NO
+HAVE_DOT               = NO
+DOT_NUM_THREADS        = 0
+DOT_FONTNAME           = Helvetica
+DOT_FONTSIZE           = 10
+DOT_FONTPATH           =
+CLASS_GRAPH            = YES
+COLLABORATION_GRAPH    = YES
+GROUP_GRAPHS           = YES
+UML_LOOK               = YES
+UML_LIMIT_NUM_FIELDS   = 10
+TEMPLATE_RELATIONS     = YES
+INCLUDE_GRAPH          = YES
+INCLUDED_BY_GRAPH      = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = NO
+GRAPHICAL_HIERARCHY    = YES
+DIRECTORY_GRAPH        = YES
+DOT_IMAGE_FORMAT       = svg
+INTERACTIVE_SVG        = NO
+DOT_PATH               = 
+DOTFILE_DIRS           =
+MSCFILE_DIRS           =
+DIAFILE_DIRS           =
+DOT_GRAPH_MAX_NODES    = 50
+MAX_DOT_GRAPH_DEPTH    = 0
+DOT_TRANSPARENT        = NO
+DOT_MULTI_TARGETS      = NO
+GENERATE_LEGEND        = YES
+DOT_CLEANUP            = YES

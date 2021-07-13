@@ -1,0 +1,21 @@
+# Target labels
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+# Source files and their labels
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/test/test_main.cpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/test/test_sgm_funcs.cpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/test/test_stereo.cpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest
+/home/steve/Downloads/build/OpenCV/opencv_contrib-4.5.2/modules/cudastereo/test/test_precomp.hpp
+ Extra
+ opencv_cudastereo
+ AccuracyTest

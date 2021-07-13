@@ -1,0 +1,88 @@
+OpenCV modules {#mainpage}
+==============
+
+- @ref intro
+- @ref tutorial_root
+- @ref tutorial_py_root
+- @ref tutorial_js_root
+- @ref tutorial_contrib_root
+- @ref faq
+- @ref citelist
+
+- Main modules:
+	- core. @ref core
+	- imgproc. @ref imgproc
+	- imgcodecs. @ref imgcodecs
+	- videoio. @ref videoio
+	- highgui. @ref highgui
+	- video. @ref video
+	- calib3d. @ref calib3d
+	- features2d. @ref features2d
+	- objdetect. @ref objdetect
+	- dnn. @ref dnn
+	- ml. @ref ml
+	- flann. @ref flann
+	- photo. @ref photo
+	- stitching. @ref stitching
+	- gapi. @ref gapi
+
+
+- Extra modules:
+	- alphamat. @ref alphamat
+	- aruco. @ref aruco
+	- bgsegm. @ref bgsegm
+	- bioinspired. @ref bioinspired
+	- ccalib. @ref ccalib
+	- cnn_3dobj. @ref cnn_3dobj
+	- cudaarithm. @ref cudaarithm
+	- cudabgsegm. @ref cudabgsegm
+	- cudacodec. @ref cudacodec
+	- cudafeatures2d. @ref cudafeatures2d
+	- cudafilters. @ref cudafilters
+	- cudaimgproc. @ref cudaimgproc
+	- cudalegacy. @ref cudalegacy
+	- cudaobjdetect. @ref cudaobjdetect
+	- cudaoptflow. @ref cudaoptflow
+	- cudastereo. @ref cudastereo
+	- cudawarping. @ref cudawarping
+	- cudev. @ref cudev
+	- cvv. @ref cvv
+	- datasets. @ref datasets
+	- dnn_objdetect. @ref dnn_objdetect
+	- dnn_superres. @ref dnn_superres
+	- dpm. @ref dpm
+	- face. @ref face
+	- freetype. @ref freetype
+	- fuzzy. @ref fuzzy
+	- hdf. @ref hdf
+	- hfs. @ref hfs
+	- img_hash. @ref img_hash
+	- intensity_transform. @ref intensity_transform
+	- julia. @ref julia
+	- line_descriptor. @ref line_descriptor
+	- mcc. @ref mcc
+	- optflow. @ref optflow
+	- ovis. @ref ovis
+	- phase_unwrapping. @ref phase_unwrapping
+	- plot. @ref plot
+	- quality. @ref quality
+	- rapid. @ref rapid
+	- reg. @ref reg
+	- rgbd. @ref rgbd
+	- saliency. @ref saliency
+	- sfm. @ref sfm
+	- shape. @ref shape
+	- stereo. @ref stereo
+	- structured_light. @ref structured_light
+	- superres. @ref superres
+	- surface_matching. @ref surface_matching
+	- text. @ref text
+	- tracking. @ref tracking
+	- videostab. @ref videostab
+	- viz. @ref viz
+	- wechat_qrcode. @ref wechat_qrcode
+	- xfeatures2d. @ref xfeatures2d
+	- ximgproc. @ref ximgproc
+	- xobjdetect. @ref xobjdetect
+	- xphoto. @ref xphoto
+
