@@ -1,0 +1,15 @@
+# https://link.zhihu.com/?target=https%3A//github.com/NVIDIA/libnvidia-container/tree/gh-pages/stable
+# https://link.zhihu.com/?target=https%3A//github.com/NVIDIA/nvidia-container-runtime/tree/gh-pages/stable
+
+sudo dpkg -i libnvidia-container1_1.7.0-1_amd64.deb
+sudo dpkg -i sudo dpkg -i libnvidia-container1_1.7.0-1_amd64.deb
+
+
+sudo dpkg -i nvidia-container-runtime_3.5.0-1_amd64.deb
+sudo dpkg -i nvidia-container-toolkit_1.5.1-1_amd64.deb
+
+sudo dpkg -i sudo dpkg -i
+
+# test 
+sudo systemctl restart docker
+sudo docker run --rm --gpus all nvidia/cuda:11.0-base nvidia-smi
