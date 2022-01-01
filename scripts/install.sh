@@ -43,6 +43,5 @@ sudo apt install -y build-essential
 sudo apt install -y libeigen3-dev libeigen3-doc
 sudo apt install -y libpcl-dev libpcl-doc
 
-# install opengl
-
-# install opencv_contrib with CUDA 
+sudo apt install -y libglm-dev libglm-doc
+sudo apt install -y libassimp-dev libassimp-doc
