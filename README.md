@@ -16,3 +16,13 @@ sudo apt install ibus-libpinyin
 sudo apt install ibus-clutter
 ```
 注销以后region&language 里面选择chinese intelligent pinyin
+
+# appimagelauncher
+```
+# add this ppa to system
+sudo add-apt-repository ppa:appimagelauncher-team/stable
+sudo apt-get update
+
+# install appimagelauncher
+apt install appimagelauncher
+```
