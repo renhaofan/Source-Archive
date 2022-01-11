@@ -70,6 +70,12 @@ cmake \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.4.5/modules \
 ..
 
-
+# 执行如下命令后获取cpu核心数以加快编译
+nproc
+# 将nproc得到的数字放在make -j后面，作者的电脑有16的CPU核心
+make -j16
+sudo make install
+sudo sh -c 'echo "/usr/local/lib" >> /etc/ld.so.conf.d/opencv.conf'
+sudo ldconfig
 
 
