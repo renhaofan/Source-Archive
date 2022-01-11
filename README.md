@@ -23,7 +23,7 @@ sudo apt install ibus-clutter
 git clone --recursive --branch v0.5 https://github.com/stevenlovegrove/Pangolin.git
 ```
 强烈建议不要使用v0.5以上的版本，尤其有orb等slam的需要
-=======
+
 # appimagelauncher
 ```
 # add this ppa to system
