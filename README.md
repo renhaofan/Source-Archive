@@ -17,7 +17,6 @@ sudo apt install ibus-clutter
 ```
 注销以后region&language 里面选择chinese intelligent pinyin
 
-<<<<<<< HEAD
 # Pangolin
 ```
 git clone --recursive --branch v0.5 https://github.com/stevenlovegrove/Pangolin.git
@@ -33,4 +32,21 @@ sudo apt-get update
 # install appimagelauncher
 apt install appimagelauncher
 ```
->>>>>>> 20d830169cebfacd33234247de96a1c23e03be99
+# appimagetool
+```
+sudo apt install -y python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot strace fuse
+sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
+sudo chmod +x /usr/local/bin/appimagetool
+```
+
+# colormap.desktop
+```
+[Desktop Entry]
+Name=ColorMapV2.1
+Comment=rangemap visualization
+Exec=/home/steve/Documents/RELEASE/ColorMapV2.1/colormap
+Icon=logo
+Terminal=true
+Type=Application
+Categories=Utility;Development;
+```
