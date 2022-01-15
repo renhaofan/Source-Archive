@@ -46,7 +46,7 @@ Name=ColorMapV2.1
 Comment=rangemap visualization
 Exec=/home/steve/Documents/RELEASE/ColorMapV2.1/colormap
 Icon=logo
-Terminal=true
+Terminal=false
 Type=Application
 Categories=Utility;Development;
 ```
