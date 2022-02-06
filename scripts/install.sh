@@ -41,7 +41,7 @@ COMMENT
 
 sudo apt install -y build-essential
 sudo apt install -y libeigen3-dev libeigen3-doc
-sudo apt install -y libpcl-dev libpcl-doc
+sudo apt install -y libpcl-dev libpcl-doc pcl-tools
 
 sudo apt install -y libglm-dev libglm-doc
 sudo apt install -y libassimp-dev libassimp-doc
