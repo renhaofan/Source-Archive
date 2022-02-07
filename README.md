@@ -23,6 +23,12 @@ git clone --recursive --branch v0.5 https://github.com/stevenlovegrove/Pangolin.
 ```
 强烈建议不要使用v0.5以上的版本，尤其有orb等slam的需要
 
+# libreoffice
+```
+sudo apt-get install libreoffice
+sudo apt-get install libreoffice-l10n-zh-cn libreoffice-help-zh-cn
+```
+
 # appimagelauncher
 ```
 # add this ppa to system
