@@ -38,6 +38,9 @@ sudo apt-get update
 # install appimagelauncher
 apt install appimagelauncher
 ```
+# NoMachine
+https://www.nomachine.com/download/download&id=2
+
 # appimagetool
 ```
 sudo apt install -y python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot strace fuse
