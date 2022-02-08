@@ -1,5 +1,11 @@
 # 介绍
 这是一个备份，对于新的ubuntu20.04的一些库的备份。因为opencv3对于cuda11 编译有问题，所以我用opencv4.5.2 里面的一些文件替换了opencv3里面的，这样编译才通过。具体可以看 “OpenCV_README.md”。 其他的源码与官方仓库的一致。
+# Driver
+
+[reference1](https://flywine.blog.csdn.net/article/details/81877822?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=1)
+[reference2](https://blog.csdn.net/wm9028/article/details/110268030)
+
+
 # zsh
 ```
 sudo apt-get install fonts-powerline zsh
