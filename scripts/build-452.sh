@@ -44,8 +44,8 @@ COMMENT
 
 # CUDA_ARCH_BIN is compute capability
 # your device compute capability check https://developer.nvidia.com/cuda-gpus
-# This is for GeForce GTX 960 
-# CUDA_ARCH_BIN=5.2
+# This is for GeForce GTX 960M 
+# CUDA_ARCH_BIN=5.0
 
 cmake \
 -D CMAKE_INSTALL_PREFIX=/usr/local \
@@ -59,6 +59,6 @@ cmake \
 -D BUILD_opencv_world=OFF \
 -D BUILD_CUDA_STUBS=ON \
 -D WITH_CUDA=ON \
--D CUDA_ARCH_BIN=5.2 \
+-D CUDA_ARCH_BIN=5.0 \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-4.5.2/modules \
 ..
