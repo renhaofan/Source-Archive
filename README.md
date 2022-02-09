@@ -14,6 +14,8 @@ git clone git://github.com/zsh-users/zsh-autosuggestions ~/.ob-my-zsh/plugins
 git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.ob-my-zsh/plugins
 chsh -s $(which zsh)
 ```
+then log out, configure .zshrc 
+
 # 输入法
 ```
 sudo apt-get update
