@@ -72,6 +72,8 @@ Categories=Utility;Development;
 ssh-keygen -t rsa -C "yqykrhf@163.com" 
 git config --global user.email "yqykrhf@163.com"
 git config --global user.name "renhaofan"
+ssh -T git@github.com
 
 ```
-copy content in .pub to github ssh
+测试的时候输入的是`yes`，回车不行。。。。
+copy content in .pub to github ssh。
