@@ -67,3 +67,11 @@ Terminal=false
 Type=Application
 Categories=Utility;Development;
 ```
+# git
+```
+ssh-keygen -t rsa -C "yqykrhf@163.com" 
+git config --global user.email "yqykrhf@163.com"
+git config --global user.name "renhaofan"
+
+```
+copy content in .pub to github ssh
