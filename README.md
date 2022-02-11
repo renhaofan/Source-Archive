@@ -5,9 +5,9 @@
 [reference1](https://flywine.blog.csdn.net/article/details/81877822?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_paycolumn_v3&utm_relevant_index=1)
 [reference2](https://blog.csdn.net/wm9028/article/details/110268030)
 
-
+dkms 安装驱动的话，可以避免更新内核的时候驱动挂掉。
 # zsh
-```
+```bash
 sudo apt-get install fonts-powerline zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
 git clone git://github.com/zsh-users/zsh-autosuggestions ~/.ob-my-zsh/plugins/zsh-autosuggestions
@@ -17,7 +17,7 @@ chsh -s $(which zsh)
 then log out, configure .zshrc 
 
 # 输入法
-```
+```bash
 sudo apt-get update
 sudo apt-get install language-pack-zh-hans
 sudo apt install ibus-libpinyin
@@ -26,19 +26,19 @@ sudo apt install ibus-clutter
 注销以后region&language 里面选择chinese intelligent pinyin
 
 # Pangolin
-```
+```bash
 git clone --recursive --branch v0.5 https://github.com/stevenlovegrove/Pangolin.git
 ```
 强烈建议不要使用v0.5以上的版本，尤其有orb等slam的需要
 
 # libreoffice
-```
+```bash
 sudo apt-get install libreoffice
 sudo apt-get install libreoffice-l10n-zh-cn libreoffice-help-zh-cn
 ```
 
 # appimagelauncher
-```
+```bash
 # add this ppa to system
 sudo add-apt-repository ppa:appimagelauncher-team/stable
 sudo apt-get update
@@ -50,7 +50,7 @@ apt install appimagelauncher
 https://www.nomachine.com/download/download&id=2
 
 # appimagetool
-```
+```bash
 sudo apt install -y python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot strace fuse
 sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
 sudo chmod +x /usr/local/bin/appimagetool
@@ -68,7 +68,7 @@ Type=Application
 Categories=Utility;Development;
 ```
 # git
-```
+```bash
 ssh-keygen -t rsa -C "yqykrhf@163.com" 
 git config --global user.email "yqykrhf@163.com"
 git config --global user.name "renhaofan"
@@ -77,3 +77,9 @@ ssh -T git@github.com
 ```
 测试的时候输入的是`yes`，回车不行。。。。
 copy content in .pub to github ssh。
+# SimpleScreenRecorder
+```bash
+sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+sudo apt-get update
+sudo apt-get install simplescreenrecorder
+```
