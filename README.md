@@ -6,6 +6,18 @@
 [reference2](https://blog.csdn.net/wm9028/article/details/110268030)
 
 dkms 安装驱动的话，可以避免更新内核的时候驱动挂掉。
+
+```bash
+ubuntu-drivers devices
+sudo apt-get install nvidia-driver-510
+
+
+nvidia-smi nvidia-settings
+
+sudo apt-get install nvidia-cuda-toolkit
+nvcc --version
+```
+
 # zsh
 ```bash
 sudo apt-get install fonts-powerline zsh
