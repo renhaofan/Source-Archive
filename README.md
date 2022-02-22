@@ -87,5 +87,5 @@ sudo apt-get install simplescreenrecorder
 ```
 # Utility
 ```bash
-sudo apt-get install -y fim clang-format
+sudo apt-get install -y fim clang-format net-tools
 ```
