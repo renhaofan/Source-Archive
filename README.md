@@ -17,6 +17,10 @@ nvidia-smi nvidia-settings
 sudo apt-get install nvidia-cuda-toolkit
 nvcc --version
 ```
+有时候`sudo apt-get upgrade`里面有nvidia-driver，你可以选择更新，更新之后运行`nvidia-smi`,
+会报错：Failed to initialize NVML: Driver/library version mismatch.
+由于我们是用，ppa源安装的，所以不需要卸载驱动，重新安装驱动。只需要重启以下就行了。
+
 
 # zsh
 ```bash
