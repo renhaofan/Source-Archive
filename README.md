@@ -104,4 +104,8 @@ sudo apt-get install simplescreenrecorder
 # Utility
 ```bash
 sudo apt-get install -y fim clang-format net-tools
+sudo add-apt-repository ppa:hluk/copyq
+sudo apt update
+sudo apt install copyq
 ```
+[copyq(https://github.com/hluk/CopyQ)
