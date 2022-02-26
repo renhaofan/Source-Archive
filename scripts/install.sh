@@ -42,6 +42,9 @@ COMMENT
 sudo apt install -y build-essential
 sudo apt install -y libeigen3-dev libeigen3-doc
 sudo apt install -y libpcl-dev libpcl-doc pcl-tools
+# complie pcl with cuda from souce, reference:
+# https://mp.weixin.qq.com/s/7LkeH9pxuUsnkl10NbWYMg
+
 
 sudo apt install -y libglm-dev libglm-doc
 sudo apt install -y libassimp-dev libassimp-doc
