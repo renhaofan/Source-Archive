@@ -106,6 +106,7 @@ sudo apt-get install simplescreenrecorder
 sudo apt-get install -y fim clang-format net-tools
 sudo add-apt-repository ppa:hluk/copyq
 sudo apt update
-sudo apt install copyq
+sudo apt install -y copyq
+sudo apt-get install -y cmake-curses-gui
 ```
 [copyq(https://github.com/hluk/CopyQ)
