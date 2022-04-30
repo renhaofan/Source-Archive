@@ -103,7 +103,7 @@ sudo apt-get install simplescreenrecorder
 ```
 # Utility
 ```bash
-sudo apt-get install -y doxygen doxygen-gui
+sudo apt-get install -y doxygen doxygen-gui graphviz
 sudo apt-get install -y fim clang-format net-tools
 sudo add-apt-repository ppa:hluk/copyq
 sudo apt update
