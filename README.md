@@ -65,14 +65,18 @@ apt install appimagelauncher
 # NoMachine
 https://www.nomachine.com/download/download&id=2
 
+# Qt
+看到有些地方是这样安装的，而不是.run文件
+```
+sudo apt-get install -y qt5-default qtcreator
+```
+
 # appimagetool
 ```bash
 sudo apt install -y python3-pip python3-setuptools patchelf desktop-file-utils libgdk-pixbuf2.0-dev fakeroot strace fuse
 sudo wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage -O /usr/local/bin/appimagetool
 sudo chmod +x /usr/local/bin/appimagetool
 ```
-# 微信
-https://blog.csdn.net/OTZ_2333/article/details/122368735?spm=1001.2014.3001.5502
 
 # colormap.desktop
 ```
