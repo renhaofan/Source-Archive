@@ -114,4 +114,6 @@ sudo apt update
 sudo apt install -y copyq
 sudo apt-get install -y cmake-curses-gui
 ```
-[copyq(https://github.com/hluk/CopyQ)
+[copyq](https://github.com/hluk/CopyQ)
+
+[Stretchly](https://github.com/hovancik/stretchly)
