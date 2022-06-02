@@ -117,3 +117,5 @@ sudo apt-get install -y cmake-curses-gui
 [copyq](https://github.com/hluk/CopyQ)
 
 [Stretchly](https://github.com/hovancik/stretchly)
+
+[ulauncher](https://ulauncher.io/)
