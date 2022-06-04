@@ -26,8 +26,8 @@ nvcc --version
 ```bash
 sudo apt-get install fonts-powerline zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
-git clone git://github.com/zsh-users/zsh-autosuggestions ~/.ob-my-zsh/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.ob-my-zsh/plugins/zsh-syntax-highlighting
+git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 chsh -s $(which zsh)
 ```
 then log out, configure .zshrc 
