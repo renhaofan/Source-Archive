@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 <<'COMMENT'
+If choose OpenGL when install CUDA, this is not necessary.
 libglu1-mesa-dev ---- Includes headers and static libraries for compiling programs with GLU. 
 mesa-common-dev ---- Mesa-specific OpenGL extensions 
 mesa-utils ---- GL utilities built by Mesa, including glxinfo and glxgears. 
