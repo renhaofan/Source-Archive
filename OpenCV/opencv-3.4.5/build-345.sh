@@ -73,11 +73,12 @@ cmake \
 -D WITH_TBB=ON \
 -D BUILD_JAVA=OFF \
 -D BUILD_opencv_python3=OFF \
+-D BUILD_opencv_python2=OFF \
 -D BUILD_opencv_world=OFF \
 -D BUILD_CUDA_STUBS=ON \
 -D WITH_CUDA=ON \
 -D WITH_CUBLAS=ON \
--D CUDA_ARCH_BIN=5.0 \
+-D CUDA_ARCH_BIN=6.1 \
 -D ENABLE_PRECOMPILED_HEADERS=OFF \
 -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib-3.4.5/modules \
 ..
