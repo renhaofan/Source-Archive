@@ -112,7 +112,7 @@ sudo apt-get install -y doxygen doxygen-gui graphviz
 sudo apt-get install -y fim clang-format net-tools
 sudo add-apt-repository ppa:hluk/copyq
 sudo apt update
-sudo apt install -y copyq
+sudo apt install -y copyq tldr
 sudo apt-get install -y cmake-curses-gui
 ```
 [copyq](https://github.com/hluk/CopyQ)
