@@ -45,6 +45,8 @@ sudo apt install ibus-clutter
 # Pangolin
 ```bash
 git clone --recursive --branch v0.5 https://github.com/stevenlovegrove/Pangolin.git
+https://blog.csdn.net/Robert_Q/article/details/121690089
+
 ```
 强烈建议不要使用v0.5以上的版本，尤其有orb等slam的需要
 
